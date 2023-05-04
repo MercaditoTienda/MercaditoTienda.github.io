@@ -1,0 +1,309 @@
+/*Body*/
+body{
+		/*para colorcar una imagen d fondo*/
+	 background-image:url("../imagenes/fondo1.jpg");
+	 /*para que noi se repita la imagen de fondo*/
+	 /*background-repeat: no-repeat*/
+		/*para ajustar el tamaño de la imagen*/
+	background-size: 100% 100%;
+	/*font-family es para el tipo de letra: si el 10. no lo encuentra en el navegador, coloca el segundo, si no el tercero*/
+	font-family:"Mermaid Swash Caps"; 
+	/*font-sizees para el tamaño se expresa en pixeles */
+	font-size: 25px;
+	/*color es para el color de las letras: puedes colocar su valor hexadecimal , el nombre del color o valores rbg*/
+	color: #2F5A0A;
+}
+hr{
+	/*border es para la linea tamaño en pixeles tipo de linea y color*/
+	border: 5px solid #2F5A0A;
+	/*border-radius es para el terminado de las orillas el radio que tendra se expresa en pixeles*/ 
+	border-radius: 5px;
+}
+p{
+	/*text-align se utiliza para alinear el text por default estan alineados a la izquierda*/
+	text-align: center;
+	font-size: 18px;
+	
+}
+table,td,tr {
+	border:3px solid;
+	border-color:#2F5A0A;
+	/*alineacion del texto*/
+	text-align:center;
+	/*color de fondo*/
+	background-color:#9FEA81;
+}
+th{
+	background-color:#FCFEFC;
+}
+ul{
+	list-style-type:circle;
+	list-style-position: inside;	
+}
+
+ol{
+	/*algunos de los valores de list-style-type son: lower-alpha; lower-roman; A,B,C,D,E,F,  I,II,III,IV*/
+	list-style-position: upper-roman;
+	list-style-position: inside;
+}
+
+.pie{
+	text-align:center;
+	font-size:13px;
+	color:#2F5A0A;
+	font-family:"Vogue";
+	font-weight:bold;
+}
+
+.tabla{
+	text-align:center;
+	font-size:35px;
+	color:#2F5A0A;
+	font-family:"Ragantie";
+	
+	
+}
+
+.tablas{
+	text-align:center;
+	font-size:23px;
+	color:#42833E;
+	font-family:"Comfortaa-Bold";
+}
+	
+.titulo{
+text-align:center;
+	font-size:45px;
+	color:#2F5A0A;
+	
+	font-family: MALEANTES;
+}
+
+.IM{
+	width:600px;
+	height:400px;
+	BORDER:2PX SOLID #2F5A0A;
+	PADDING: 4PX;
+
+}
+
+.BT{
+	border-radius:10px;
+	width:100px;
+	height:100px;
+}
+
+.IT{
+	WIDTH:100PX;
+	height:150px;
+}
+
+.XI{
+	BORDER:4PX SOLID #2F5A0A;
+	WIDTH:500PX;
+	HEIGHT:300PX;
+	PADDING: 4PX;
+}
+@font-face{
+	font-family: MALEANTES;
+	src: url("../Fuentes/Maleantes Tres-d.ttf")
+}
+
+
+@font-face{
+	font-family:Mermaid Swash Caps;
+	src: url("../Fuentes/Mermaid Swash Caps.ttf")
+}
+
+}
+@font-face{
+	font-family:Ragantie;
+	src: url("../Fuentes/Ragantie.ttf")
+}
+
+@font-face{
+	font-family:Comfortaa-Bold;
+	src: url("../Fuentes/Comfortaa-Bold.ttf")
+}
+
+@font-face{
+	font-family:Vogue;
+	src: url("../Fuentes/Vogue.ttf")
+}
+.fuentegoogle{
+	font-family: 'vesper libre' , serif;
+	font-size: 25px;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+div#top{
+	width:100%;
+	height:50px;
+	background-image:linear-gradient(#86E184,#F9FCF9);
+}
+
+div#principal{
+	margin:auto;
+	margin-top:10px;
+	width: 90%;
+	height:600px;
+	background-image:radial-gradient(#86E184,#F9FCF9);
+}
+div#piep{
+	margin-top:10px;
+	width:100%;
+	height:50px;
+	background-image:linear-gradient(#86E184,#F9FCF9);
+}	
+
+
+div#segundo{
+	margin:auto;
+	margin-top:10px;
+	width: 90%;
+	height:1475px;
+	background-image:radial-gradient(#86E184,#F9FCF9);
+}
+
+div#tercero{
+	margin:auto;
+	margin-top:10px;
+	width: 90%;
+	height:700px;
+	background-image:radial-gradient(#86E184,#F9FCF9);
+}
+
+div#cuarto{
+	margin:auto;
+	margin-top:10px;
+	width: 90%;
+	height:1000px;
+	background-image:radial-gradient(#86E184,#F9FCF9);
+}
+
+div#quinto{
+	margin:auto;
+	margin-top:10px;
+	width: 90%;
+	height:980px;
+	background-image:radial-gradient(#86E184,#F9FCF9);
+}
+.caja{
+	height:300px;
+	width:200px;
+	background:#D6EED8;
+	border:1px solid #D6EED8;
+	margin:black;
+	text-align:center;
+	display:inline-block;
+}
+
+
+.caja:hover{
+	box-shadow: 0 0  10px #0A4B0F;
+	transform:scale(1.3);	
+}
+
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:black;
+	font-weight:bold:
+}
+
+.texto-adicional{
+	padding-top:2px;
+	font-size:1px;
+}
+
+
+.carrousel{
+    width:600px;
+    margin:auto;
+    box-sizing:border-box;
+}
+.conteCarrousel{
+    width:100%;
+    height:400px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.itemCarrousel{
+    position:relative;
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    box-sizing:border-box;
+}
+.itemCarrouselArrows >i :hover{
+    cursor:pointer;
+}
+.conterCarrouselController{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.conterCarrouselController >a{
+    text-decoration:none;
+    font-size:32px;
+    color:grey;
+}
+.itemCarrouselArrows >a >i {
+    color:#5C8060;
+}
+
+div#alrededor{
+	margin-top:5px;
+	width:20%;
+	height:20%;
+	background-color:#CCE2CC;
+	border:2px solid #094F09;
+}
+.texto-parrafo{
+	padding-top:5px;
+	font-size:15px;
+	color:#094F09;
+	font-weight:bold;
+	font-family:Comfortaa-Bold;
+	src: url("../Fuentes/Comfortaa-Bold.ttf")
+}
+
+
+.tex{
+	height:100px;
+	width:100px;
+	background:#D6EED8;
+	border:1px solid #D6EED8;
+	margin:black;
+	text-align:center;
+	display:inline-block;
+}
+
+
+.tex:hover{
+	box-shadow: 0 0  10px #0A4B0F;
+	transform:scale(1.3);	
+}
+
